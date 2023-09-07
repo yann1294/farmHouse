@@ -1,0 +1,52 @@
+/**
+ *** Table of Content ***
+ * Header area
+ * Slider area
+ * About area
+ * Product area
+ * Prices area
+ * Portfolio area
+ * Faq area
+ * Testimonial top area
+ * Sponsor area
+ * App area
+ * Contact area
+ * Footer area
+ * Scroll top area
+ * Only-Text-slider-with-fixed-background-image css
+ * Only-Image-slider-with-fixed-Text css
+ * Pre Loader Style
+**/
+
+/* Header area start */
+.farm-navbar-area {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    transition: 2s;
+}
+.farm-navbar-area.sticky {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 55;
+    transition: 1s;
+}
+.farm-navbar-area.sticky .menu li a {
+    line-height: 80px;
+}
+.farm-navbar-area.sticky .navbar-brand {
+    width: 140px;
+}
+nav.navbar {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 0;
+}
+/*.navbar-brand {
+    padding: 0;
+    width: 280px;
+    position: absolute;
+    top: 0;
+}
